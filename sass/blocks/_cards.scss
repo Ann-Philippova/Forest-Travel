@@ -1,0 +1,75 @@
+/* Cards */
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.cards-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.cards-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.card-title-wrapper {
+    padding: 0 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Base card */
+
+.card-link {
+    background-color: #a6a6a6;
+    width: 570px;
+    transition: opacity .2s ease-in;
+}
+
+.card-link:hover {
+    opacity: 0.9;
+}
+
+
+/* Mod cards*/
+/* Color */
+
+.card-link.sand {
+    background-color: #c1b19b;
+}
+
+.card-link.azure {
+    background-color: #66b0be;
+}
+
+.card-link.brown {
+    background-color: #876f56;
+}
+
+.card-link.green {
+    background-color: #27695e;
+}
+
+/* Sizes */
+
+.card-link.wide {
+    width: 670px;
+}
+
+.card-link.high {
+    width: 470px;
+}

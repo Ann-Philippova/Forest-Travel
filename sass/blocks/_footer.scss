@@ -1,0 +1,59 @@
+footer {
+    background-color: #265847;
+    padding: 71px 0 94px;
+
+    color: #fff;
+    /* stciky footer */
+    margin-top: auto;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-widgets-wrapper {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 9px;
+    font-size: 18px;
+}
+
+/* Footer */
+.footer-logo {
+    margin-bottom: 26px;
+}
+
+.footer-copyright {
+    width: 270px;
+}
+
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-widget-info {
+    width: 170px;
+}
+
+.footer-widget-services,
+.footer-widget-contacts {
+    width: 270px;
+}
+
+.footer-widget p:not(:last-child),
+.footer-widget-list li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-widget-title {
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
